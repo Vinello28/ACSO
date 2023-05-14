@@ -9,3 +9,7 @@ add_executable(repo2
         "Data Structures/Esercizio 2.c")
 add_executable(repo3
         "Data Structures/newlib.c" "Data Structures/newlib.h" "Data Structures/Esercizio 3.c")
+add_executable(repo4
+        "Processes and Threads/Esercizio 1.c")
+add_executable(repo5
+        "Processes and Threads/Esercizio 2.c")
