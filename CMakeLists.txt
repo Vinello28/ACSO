@@ -13,3 +13,9 @@ add_executable(repo4
         "Processes and Threads/Esercizio 1.c")
 add_executable(repo5
         "Processes and Threads/Esercizio 2.c")
+add_executable(repo6
+        "Processes and Threads/Esercizio 3.c")
+add_executable(repo7
+        "Processes and Threads/Esercizio 4.c")
+add_executable(repo8
+        "Processes and Threads/Esercizio 5.c")
