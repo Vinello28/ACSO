@@ -19,6 +19,8 @@ add_executable(repo7
         "Processes and Threads/Esercizio 4.c")
 add_executable(repo8
         "Processes and Threads/Esercizio 5.c")
+add_executable(repo9
+        "Processes and Threads/Esercizio 6.c")
 
 add_executable(e1
         "Homeworks/PrintPID.c")
