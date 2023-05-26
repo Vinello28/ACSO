@@ -1,0 +1,132 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "repo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "repo1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-repo1-Debug-96018924da4f791028e8.json",
+					"name" : "repo1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "repo2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-repo2-Debug-3130e84535ca8241bd09.json",
+					"name" : "repo2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "repo3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-repo3-Debug-c45dcf9b52aa943a8104.json",
+					"name" : "repo3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "repo4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-repo4-Debug-5424947ba2c7cca8f7e2.json",
+					"name" : "repo4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "repo5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-repo5-Debug-0f9c8a886246c62e1d89.json",
+					"name" : "repo5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "repo6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-repo6-Debug-689c50ae3b7b45ae1cec.json",
+					"name" : "repo6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "repo7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-repo7-Debug-b74d896a6e30e46189df.json",
+					"name" : "repo7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "repo8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-repo8-Debug-ba94c48bdc7c90b9a951.json",
+					"name" : "repo8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "repo9::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-repo9-Debug-7d3bef1d090e36128336.json",
+					"name" : "repo9",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/gabrielevianello/Documents/ACSO/Esercitazioni/repo/cmake-build-debug",
+		"source" : "/Users/gabrielevianello/Documents/ACSO/Esercitazioni/repo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

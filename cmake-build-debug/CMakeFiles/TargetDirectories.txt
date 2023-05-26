@@ -1,0 +1,11 @@
+/Users/gabrielevianello/Documents/ACSO/Esercitazioni/repo/cmake-build-debug/CMakeFiles/repo1.dir
+/Users/gabrielevianello/Documents/ACSO/Esercitazioni/repo/cmake-build-debug/CMakeFiles/repo2.dir
+/Users/gabrielevianello/Documents/ACSO/Esercitazioni/repo/cmake-build-debug/CMakeFiles/repo3.dir
+/Users/gabrielevianello/Documents/ACSO/Esercitazioni/repo/cmake-build-debug/CMakeFiles/repo4.dir
+/Users/gabrielevianello/Documents/ACSO/Esercitazioni/repo/cmake-build-debug/CMakeFiles/repo5.dir
+/Users/gabrielevianello/Documents/ACSO/Esercitazioni/repo/cmake-build-debug/CMakeFiles/repo6.dir
+/Users/gabrielevianello/Documents/ACSO/Esercitazioni/repo/cmake-build-debug/CMakeFiles/repo7.dir
+/Users/gabrielevianello/Documents/ACSO/Esercitazioni/repo/cmake-build-debug/CMakeFiles/repo8.dir
+/Users/gabrielevianello/Documents/ACSO/Esercitazioni/repo/cmake-build-debug/CMakeFiles/repo9.dir
+/Users/gabrielevianello/Documents/ACSO/Esercitazioni/repo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/gabrielevianello/Documents/ACSO/Esercitazioni/repo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
