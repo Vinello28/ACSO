@@ -356,6 +356,37 @@ build e1: C_EXECUTABLE_LINKER__e1_Debug CMakeFiles/e1.dir/Homeworks/PrintPID.c.o
   TARGET_FILE = e1
   TARGET_PDB = e1.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target e2
+
+
+#############################################
+# Order-only phony target for e2
+
+build cmake_object_order_depends_target_e2: phony || CMakeFiles/e2.dir
+
+build CMakeFiles/e2.dir/Homeworks/PrintAndModify.c.o: C_COMPILER__e2_Debug /Users/gabrielevianello/Documents/ACSO/Esercitazioni/repo/Homeworks/PrintAndModify.c || cmake_object_order_depends_target_e2
+  DEP_FILE = CMakeFiles/e2.dir/Homeworks/PrintAndModify.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/e2.dir
+  OBJECT_FILE_DIR = CMakeFiles/e2.dir/Homeworks
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target e2
+
+
+#############################################
+# Link the executable e2
+
+build e2: C_EXECUTABLE_LINKER__e2_Debug CMakeFiles/e2.dir/Homeworks/PrintAndModify.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/e2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = e2
+  TARGET_PDB = e2.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -390,7 +421,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/gabrielevianello/Documents/ACSO/Esercitazioni/repo/cmake-build-debug
 
-build all: phony repo1 repo2 repo3 repo4 repo5 repo6 repo7 repo8 repo9 e1
+build all: phony repo1 repo2 repo3 repo4 repo5 repo6 repo7 repo8 repo9 e1 e2
 
 # =============================================================================
 # Built-in targets

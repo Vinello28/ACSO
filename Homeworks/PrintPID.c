@@ -7,12 +7,13 @@
 #include <unistd.h>
 
 
- int main (){
+ int main (int argc, char** argv){
+     pid_t pid;
+
      printf("---- PRINT PID ----\n");
-     int pidP = getpid();
-     int pidS = fork();
-     printf("PID father: %d\n PID son: %d", pidP, pidS);
-     if(pidS == -1)printf("ERROR: in creating another process");
-     wait(&pidS);
+     pid = fork();
+     printf("Child PID: %d\n", (int)getpid());
+     printf("Father PID: %d", (int) getppid());
+
      return 0;
  }
