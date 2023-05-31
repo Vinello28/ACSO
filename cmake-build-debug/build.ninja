@@ -542,6 +542,37 @@ build e7: C_EXECUTABLE_LINKER__e7_Debug CMakeFiles/e7.dir/Homeworks/StampThread.
   TARGET_FILE = e7
   TARGET_PDB = e7.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target e8
+
+
+#############################################
+# Order-only phony target for e8
+
+build cmake_object_order_depends_target_e8: phony || CMakeFiles/e8.dir
+
+build CMakeFiles/e8.dir/Homeworks/FirstMutex.c.o: C_COMPILER__e8_Debug /Users/gabrielevianello/Documents/ACSO/Esercitazioni/repo/Homeworks/FirstMutex.c || cmake_object_order_depends_target_e8
+  DEP_FILE = CMakeFiles/e8.dir/Homeworks/FirstMutex.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/e8.dir
+  OBJECT_FILE_DIR = CMakeFiles/e8.dir/Homeworks
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target e8
+
+
+#############################################
+# Link the executable e8
+
+build e8: C_EXECUTABLE_LINKER__e8_Debug CMakeFiles/e8.dir/Homeworks/FirstMutex.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/e8.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = e8
+  TARGET_PDB = e8.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -576,7 +607,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/gabrielevianello/Documents/ACSO/Esercitazioni/repo/cmake-build-debug
 
-build all: phony repo1 repo2 repo3 repo4 repo5 repo6 repo7 repo8 repo9 e1 e2 e3 e4 e5 e6 e7
+build all: phony repo1 repo2 repo3 repo4 repo5 repo6 repo7 repo8 repo9 e1 e2 e3 e4 e5 e6 e7 e8
 
 # =============================================================================
 # Built-in targets

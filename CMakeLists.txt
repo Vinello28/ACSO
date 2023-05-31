@@ -36,3 +36,5 @@ add_executable(e6
         "Homeworks/SecondaryExec.c")
 add_executable(e7
         "Homeworks/StampThread.c")
+add_executable(e8
+        "Homeworks/FirstMutex.c")
