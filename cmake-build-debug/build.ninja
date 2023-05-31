@@ -511,6 +511,37 @@ build e6: C_EXECUTABLE_LINKER__e6_Debug CMakeFiles/e6.dir/Homeworks/SecondaryExe
   TARGET_FILE = e6
   TARGET_PDB = e6.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target e7
+
+
+#############################################
+# Order-only phony target for e7
+
+build cmake_object_order_depends_target_e7: phony || CMakeFiles/e7.dir
+
+build CMakeFiles/e7.dir/Homeworks/StampThread.c.o: C_COMPILER__e7_Debug /Users/gabrielevianello/Documents/ACSO/Esercitazioni/repo/Homeworks/StampThread.c || cmake_object_order_depends_target_e7
+  DEP_FILE = CMakeFiles/e7.dir/Homeworks/StampThread.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/e7.dir
+  OBJECT_FILE_DIR = CMakeFiles/e7.dir/Homeworks
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target e7
+
+
+#############################################
+# Link the executable e7
+
+build e7: C_EXECUTABLE_LINKER__e7_Debug CMakeFiles/e7.dir/Homeworks/StampThread.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/e7.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = e7
+  TARGET_PDB = e7.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -545,7 +576,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/gabrielevianello/Documents/ACSO/Esercitazioni/repo/cmake-build-debug
 
-build all: phony repo1 repo2 repo3 repo4 repo5 repo6 repo7 repo8 repo9 e1 e2 e3 e4 e5 e6
+build all: phony repo1 repo2 repo3 repo4 repo5 repo6 repo7 repo8 repo9 e1 e2 e3 e4 e5 e6 e7
 
 # =============================================================================
 # Built-in targets

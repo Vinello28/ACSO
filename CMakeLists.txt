@@ -34,3 +34,5 @@ add_executable(e5
         "Homeworks/MainExec.c")
 add_executable(e6
         "Homeworks/SecondaryExec.c")
+add_executable(e7
+        "Homeworks/StampThread.c")
