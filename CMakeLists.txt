@@ -30,4 +30,7 @@ add_executable(e3
         "Homeworks/PrintInFile.c")
 add_executable(e4
         "Homeworks/PrintTenTimes.c")
-
+add_executable(e5
+        "Homeworks/MainExec.c")
+add_executable(e6
+        "Homeworks/SecondaryExec.c")
