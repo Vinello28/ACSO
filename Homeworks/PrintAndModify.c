@@ -1,6 +1,6 @@
-//
-// Created by Gabriele Vianello on 27/05/23.
-//
+/**
+ * Created by Gabriele Vianello on 27/05/23.
+ */
 
 #include <stdio.h>
 #include <stdlib.h>

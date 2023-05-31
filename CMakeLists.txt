@@ -26,3 +26,8 @@ add_executable(e1
         "Homeworks/PrintPID.c")
 add_executable(e2
         "Homeworks/PrintAndModify.c")
+add_executable(e3
+        "Homeworks/PrintInFile.c")
+add_executable(e4
+        "Homeworks/PrintTenTimes.c")
+

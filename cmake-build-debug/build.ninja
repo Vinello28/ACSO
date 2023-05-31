@@ -387,6 +387,68 @@ build e2: C_EXECUTABLE_LINKER__e2_Debug CMakeFiles/e2.dir/Homeworks/PrintAndModi
   TARGET_FILE = e2
   TARGET_PDB = e2.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target e3
+
+
+#############################################
+# Order-only phony target for e3
+
+build cmake_object_order_depends_target_e3: phony || CMakeFiles/e3.dir
+
+build CMakeFiles/e3.dir/Homeworks/PrintInFile.c.o: C_COMPILER__e3_Debug /Users/gabrielevianello/Documents/ACSO/Esercitazioni/repo/Homeworks/PrintInFile.c || cmake_object_order_depends_target_e3
+  DEP_FILE = CMakeFiles/e3.dir/Homeworks/PrintInFile.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/e3.dir
+  OBJECT_FILE_DIR = CMakeFiles/e3.dir/Homeworks
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target e3
+
+
+#############################################
+# Link the executable e3
+
+build e3: C_EXECUTABLE_LINKER__e3_Debug CMakeFiles/e3.dir/Homeworks/PrintInFile.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/e3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = e3
+  TARGET_PDB = e3.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target e4
+
+
+#############################################
+# Order-only phony target for e4
+
+build cmake_object_order_depends_target_e4: phony || CMakeFiles/e4.dir
+
+build CMakeFiles/e4.dir/Homeworks/PrintTenTimes.c.o: C_COMPILER__e4_Debug /Users/gabrielevianello/Documents/ACSO/Esercitazioni/repo/Homeworks/PrintTenTimes.c || cmake_object_order_depends_target_e4
+  DEP_FILE = CMakeFiles/e4.dir/Homeworks/PrintTenTimes.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/e4.dir
+  OBJECT_FILE_DIR = CMakeFiles/e4.dir/Homeworks
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target e4
+
+
+#############################################
+# Link the executable e4
+
+build e4: C_EXECUTABLE_LINKER__e4_Debug CMakeFiles/e4.dir/Homeworks/PrintTenTimes.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/e4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = e4
+  TARGET_PDB = e4.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -421,7 +483,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/gabrielevianello/Documents/ACSO/Esercitazioni/repo/cmake-build-debug
 
-build all: phony repo1 repo2 repo3 repo4 repo5 repo6 repo7 repo8 repo9 e1 e2
+build all: phony repo1 repo2 repo3 repo4 repo5 repo6 repo7 repo8 repo9 e1 e2 e3 e4
 
 # =============================================================================
 # Built-in targets
