@@ -38,3 +38,5 @@ add_executable(e7
         "Homeworks/StampThread.c")
 add_executable(e8
         "Homeworks/FirstMutex.c")
+add_executable(e9
+        "Homeworks/SemaphoreThreads.c")
